@@ -1,0 +1,44 @@
+.btn_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn1 {
+  border: 2px solid black;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 200px;
+  height: 70px;
+  font-size: 15px;
+  margin: 20px;
+  color: red;
+  background-color: aqua;
+}
+
+.btn2 {
+  border: 2px solid black;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 200px;
+  height: 70px;
+  font-size: 15px;
+  margin: 20px;
+  color: orange;
+  background-color: purple;
+}
+
+.btn3 {
+  border: 2px solid black;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  width: 200px;
+  height: 70px;
+  font-size: 15px;
+  margin: 20px;
+  color: green;
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=s1.css.map */

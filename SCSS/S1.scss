@@ -1,0 +1,41 @@
+@mixin btnsection(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+@mixin btnfunction(){
+    border: 2px solid black;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 200px;
+    height: 70px;
+    font-size: 15px;
+    margin: 20px;
+}
+
+.btn_section{
+    @include btnsection();
+}
+
+.btn1{
+    @include btnfunction();
+    color: red;
+    background-color: aqua;
+}
+
+.btn2{
+    @include btnfunction();
+    color: orange;
+    background-color: purple;
+}
+
+.btn3{
+    @include btnfunction();
+    color: green;
+    background-color: yellow;
+}
+
+
+
